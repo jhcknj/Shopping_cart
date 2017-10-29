@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>each方法</title>
+    <script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('li').each(function(index,el){
+                alert(index);
+                alert($(el).text());
+            })
+        })
+    </script>
+</head>
+<body>
+<ul>
+    <li>yaya</li>
+    <li>jojo</li>
+    <li>lili</li>
+</ul>
+</body>
+</html>

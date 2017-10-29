@@ -1,0 +1,42 @@
+#search{
+    width:1350px;
+    height:100px;
+    background-color: bisque;
+}
+#title{
+    margin-left:30px;
+    width: 400px;
+    height: 100px;
+    float: left;
+}
+#cart{
+    text-align: center;
+    margin-right: 20px;
+    line-height:100px;
+    width: 200px;
+    height: 100px;
+    float: right;
+
+}
+
+#catalog{
+    width: 1350px;
+    height: 600px;
+    background-color: aquamarine;
+}
+
+#type{
+    margin-left: 200px;
+    width: 400px;
+    height: 100px;
+}
+#books{
+    margin-left: 200px;
+    width: 600px;
+    height: 400px;
+    background-color: #90FFD7;
+}
+
+ul{
+
+}
