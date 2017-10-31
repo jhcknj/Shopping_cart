@@ -6,12 +6,11 @@
      * Time: 16:58
      */
     include_once 'SOAP_ServiceFunctions.php';
-    $options =array(
-      'uri'=>'http://localhost/'
-      // 'location'=>'http://localhost/soap-server.php',
-      // 'trace'=>1
+    $options = array ( 'uri' => 'http://localhost/'
+                       // 'location'=>'http://localhost/soap-server.php',
+                       // 'trace'=>1
     );
-    $server=new SoapServer( NULL,$options);
-    $server->setClass( 'ServiceFunctions');
-    $server->handle();
+    $server  = new SoapServer( NULL , $options );
+    $server->setClass ( 'ServiceFunctions' );
+    $server->handle ();
         

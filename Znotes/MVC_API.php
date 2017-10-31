@@ -53,10 +53,8 @@ api开发是：使用控制器 去调用模型，模型返回数据，在有控�
          * @qq 646943067
          */
         private function error ( $message ) {
-            $return = array ( 'status' => 500 ,
-                              /* 返回状态，200 成功，500失败 */
-                              'message' => $message ,
-            );
+            $return = array ( 'status' => 500 , /* 返回状态，200 成功，500失败 */
+                              'message' => $message , );
             echo json_encode ( $return );
             die;
         }
@@ -68,11 +66,8 @@ api开发是：使用控制器 去调用模型，模型返回数据，在有控�
          * @qq 646943067
          */
         private function jsonReturn ( $data ) {
-            $return = array ( 'status' => 200 ,
-                              /* 返回状态，200 成功，500失败 */
-                              'data' => $data ,
-                              'message' => '获取成功' ,
-            );
+            $return = array ( 'status' => 200 , /* 返回状态，200 成功，500失败 */
+                              'data' => $data , 'message' => '获取成功' , );
             echo json_encode ( $return );
             die;
         }
@@ -106,10 +101,8 @@ api开发是：使用控制器 去调用模型，模型返回数据，在有控�
          * @qq 646943067
          */
         private function success ( $message ) {
-            $return = array ( 'status' => 200 ,
-                              /* 返回状态，200 成功，500失败 */
-                              'message' => $message ,
-            );
+            $return = array ( 'status' => 200 , /* 返回状态，200 成功，500失败 */
+                              'message' => $message , );
             echo json_encode ( $return );
             die;
         }
