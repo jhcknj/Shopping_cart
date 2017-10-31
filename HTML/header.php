@@ -8,6 +8,7 @@
 ?>
 <html>
 <head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
     <title> <?php if(defined('TITLE') )  echo TITLE; ?></title>
     <link href="Css/catalog.css" rel="stylesheet" type="text/css" />
     <link href="Css/login.css" rel="stylesheet" type="text/css">

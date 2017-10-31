@@ -9,16 +9,15 @@
     require_once 'header.php';
 ?>
 
+<form enctype="multipart/form-data" action="../PHP/upload_books.php" method="POST">
+    <!-- MAX_FILE_SIZE must precede the file input field -->
+    <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
+    <!-- Name of input element determines name in $_FILES array -->
+    Send this file:
+    <input name="userfile" type="file" />
+    <input type="submit" value="Send File" />
+</form>
     
-<h2>管理员界面</h2><hr>
-<div>增,添加一本图书,添加一批,只能操作同一类型的图书,还可增加图书种类</div>
-<div>删,删一本,或几本,不能删除所有图书</div>
-<div>改,针对一行</div>
-<div>查</div>
-<h5>数据库用户权限</h5>
-<div>1,只能修改一行,或者某一列
-    2.只能修改某个表
-    
-</div>
+
     
 <?php require_once  'footer.php'; ?>
